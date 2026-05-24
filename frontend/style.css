@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* Card */
+.card {
+    background: white;
+    color: black;
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Button */
+button {
+    background: #667eea;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+
+/* Recording animation */
+.recording {
+    background: red !important;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* Loader */
+#loader {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Output */
+.output {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.output h3 {
+    margin-bottom: 5px;
+}
+
+.output p {
+    background: #f3f3f3;
+    padding: 10px;
+    border-radius: 8px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voice Transliterator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎤 Voice Transliterator</h1>
+    <p class="subtitle">Speak in your language → Get English typing</p>
+
+    <div class="card">
+        <button id="recordBtn" onclick="toggleRecording()">
+            🎙️ Start Recording
+        </button>
+
+        <div id="loader" class="hidden">Processing...</div>
+
+        <div class="output">
+            <div>
+                <h3>Native Text</h3>
+                <p id="native">---</p>
+            </div>
+
+            <div>
+                <h3>English Typed</h3>
+                <p id="english">---</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
