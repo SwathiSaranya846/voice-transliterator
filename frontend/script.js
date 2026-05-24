@@ -3,7 +3,7 @@ let audioChunks = [];
 let isRecording = false;
 
 // ✅ PUT YOUR RENDER URL HERE
-const BACKEND_URL = "https://your-backend-url.onrender.com/convert";
+const BACKEND_URL = "https://voice-transliterator.onrender.com";
 
 async function toggleRecording() {
     const btn = document.getElementById("recordBtn");
